@@ -1,0 +1,7 @@
+import urllib.parse
+encodedStr = 'Hell%C3%B6%20W%C3%B6rld%40Python'
+print(urllib.parse.unquote(encodedStr))
+
+
+encodedStr = '{"ret":200,"data":{"cityinfo":{"provinces":"\u6d59\u6c5f","city":"\u676d\u5dde","area":"\u897f\u6e56","id":"101210113","prov_py":"zhejiang","city_py":"hangzhou","qh":"0571","jb":"3","yb":"310000","area_py":"xihu","area_short_code":"xh","lng":"120.12979","lat":"30.25949"},"now":{"id":"101210113","area_name":"\u897f\u6e56","city":{"wind_direction":"\u5357\u98ce","wind_power":"4-5\u7ea7","weather":"\u6674","weather_code":"00","night_air_temperature":"28","day_air_temperature":"37"},"detail":{"time":"15:45","date":"07\u670829\u65e5","week":"\u4e00","temperature":"37.4","wind_direction":"\u5357\u98ce","wind_direction_str":"S","wind_power":"2\u7ea7","wind_speed":"7km\/h","humidity":"45%","weather":"\u591a\u4e91","weather_code":"01","weather_english":"Cloudy","njd":"30km","rain":"0","aqi":"37","quality":"\u4f18","ultraviolet_rays":"0\u7ea7","ultraviolet_rays_status":null,"so2":"5","o3":"118","co":"1","no2":"7","aqi_pm25":"7","pm10":"16","sun_begin":"05:16","sun_end":"18:55","nongli":"\u516d\u6708\u5eff\u56db"},"alarm_list":[],"update_time":1722240096}},"qt":0.016}'
+print(urllib.parse.unquote(encodedStr))
