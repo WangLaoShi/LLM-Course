@@ -14,11 +14,13 @@ def get_current_date():
 def get_weather(location, date=""):
     if date == "":
         date = get_current_date()
-    weathers = ['雨',
-     '阴',
-     '阴转多云',
-     '晴转多云',
-     '晴']
+    weathers = [
+         '雨',
+         '阴',
+         '阴转多云',
+         '晴转多云',
+         '晴'
+        ]
     # 随机选择一个天气
     # 使用随机数
     import random
@@ -38,7 +40,7 @@ def get_weather_by_city(location,date=""):
 
     payload = {}
     headers = {
-        'Authorization': 'APPCODE 141c262e8ed64fe9abeda7a4de1ece3'
+        'Authorization': 'APPCODE 141c262e8ed64fe9abeda7a4de1ece30'
     }
 
     response = requests.request("GET", url, headers=headers, data=payload)

@@ -1,10 +1,12 @@
 # 使用方法 https://github.com/openai/openai-python
 import os
 from openai import OpenAI
-OPENAI_API_KEY = "sk-proj-t9k983js8KN4taOjtEP9T3BlbkFJcwtKZQh94PIpjFw9AEk"
+config = {
+    "OPENAI_API_KEY": "sk-proj-t9k983js8KN4taOjtEP9T3BlbkFJcwtKZQh94PIpjFw9AEk"
+}
 client = OpenAI(
     # This is the default and can be omitted
-    api_key=OPENAI_API_KEY,
+    api_key=config['OPENAI_API_KEY'],
 )
 
 chat_completion = client.chat.completions.create(

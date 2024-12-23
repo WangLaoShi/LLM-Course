@@ -1,8 +1,10 @@
 import requests
 import json
 
-API_KEY = "VSFjM1G0HWs0IYYsxInmg3Hi"
-SECRET_KEY = "6xDhPsqjFdMdvESlDSCAMHkDliAdm8A"
+config = {
+    "API_KEY":"VSFjM1G0HWs0IYYsxInmg3Hi",
+    "SECRET_KEY":"6xDhPsqjFdMdvESlDSCAMHkDliAdm8AD"
+}
 
 
 def main():
@@ -36,7 +38,7 @@ def get_access_token():
     :return: access_token，或是None(如果错误)
     """
     url = "https://aip.baidubce.com/oauth/2.0/token"
-    params = {"grant_type": "client_credentials", "client_id": API_KEY, "client_secret": SECRET_KEY}
+    params = {"grant_type": "client_credentials", "client_id": config['API_KEY'], "client_secret": config['SECRET_KEY']}
     return str(requests.post(url, params=params).json().get("access_token"))
 
 

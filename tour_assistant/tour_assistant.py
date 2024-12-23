@@ -6,7 +6,7 @@ from http import HTTPStatus
 from dashscope import Assistants, Messages, Runs, Threads
 from function_utils import *
 
-dashscope.api_key = "sk-0bea5c93245446f0a4753962ef405a1"
+dashscope.api_key = "sk-0bea5c93245446f0a4753962ef405a13"
 
 
 def create_assistant():
@@ -237,11 +237,11 @@ if __name__ == '__main__':
     assistant = create_assistant()
     # send_message(assistant=assistant, message="杭州天气怎么样？")
     # send_message(assistant=assistant, message="从特兰普遇刺分析中美两国关系的发展")
-    send_message(assistant=assistant, message="什么是深度学习？")
+    # send_message(assistant=assistant, message="什么是深度学习？")
     # send_message(assistant=assistant,message="年假打算出去玩，有什么地点推荐吗")
     # send_message(assistant=assistant,message="从北京去丽江怎么出行方便？")
     # send_message(assistant=assistant,message="丽江有什么好玩的地方？")
     # send_message(assistant=assistant,message="我喜欢吃，丽江有什么美食推荐吗")
     # send_message(assistant=assistant,message="去丽江还应该注意什么？")
     # send_message(assistant=assistant,message="能告诉我丽江当地有什么风俗吗")
-    # send_message(assistant=assistant,message='从杭州到北京的出行推荐')
+    send_message(assistant=assistant,message='从杭州到北京的出行推荐')

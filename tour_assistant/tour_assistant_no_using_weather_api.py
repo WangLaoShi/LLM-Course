@@ -6,7 +6,7 @@ from http import HTTPStatus
 from dashscope import Assistants, Messages, Runs, Threads
 from function_utils import *
 
-dashscope.api_key = "sk-0bea5c93245446f0a4753962ef405a1"
+dashscope.api_key = "sk-0bea5c93245446f0a4753962ef405a13"
 
 
 def create_assistant():
