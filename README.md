@@ -13,20 +13,20 @@
 
 1. 打开项目，找到项目的检出地址
 
-   ![LawsonShot20240724PM8S224iIB@2x](https://oss.images.shujudaka.com/uPic/LawsonShot20240724PM8S224iIB@2x.png)
+   ![LawsonShot20240724PM8S224iIB@2x](https://upiclw.oss-cn-beijing.aliyuncs.com/uPic/LawsonShot20240724PM8S224iIB@2x.png)
 2. 打开 PyCharm 或者你喜欢的 IDE，检出项目
 
-   ![LawsonShot20240724PMk9cCo4Nd@2x](https://oss.images.shujudaka.com/uPic/LawsonShot20240724PMk9cCo4Nd@2x.png)
+   ![LawsonShot20240724PMk9cCo4Nd@2x](https://upiclw.oss-cn-beijing.aliyuncs.com/uPic/LawsonShot20240724PMk9cCo4Nd@2x.png)
 
 ## 配置环境
 
 在使用的 IDE 例如 PyCharm 中配置你的 Python 环境（在这里强烈建议新建一个）
 
-![LawsonShot20240724PMEHsHCyqo@2x](https://oss.images.shujudaka.com/uPic/LawsonShot20240724PMEHsHCyqo@2x.png)
+![LawsonShot20240724PMEHsHCyqo@2x](https://upiclw.oss-cn-beijing.aliyuncs.com/uPic/LawsonShot20240724PMEHsHCyqo@2x.png)
 
-![LawsonShot20240724PMiPMCX7M0@2x](https://oss.images.shujudaka.com/uPic/LawsonShot20240724PMiPMCX7M0@2x.png)
+![LawsonShot20240724PMiPMCX7M0@2x](https://upiclw.oss-cn-beijing.aliyuncs.com/uPic/LawsonShot20240724PMiPMCX7M0@2x.png)
 
-![XkbcF6](https://oss.images.shujudaka.com/uPic/XkbcF6.png)
+![XkbcF6](https://upiclw.oss-cn-beijing.aliyuncs.com/uPic/XkbcF6.png)
 
 ## 激活环境
 
@@ -46,7 +46,7 @@ source venv/bin/activate
 
 > 请注意，venv 是你创建的虚拟环境的名字，如果你的虚拟环境名字不是 venv，请替换成你的虚拟环境名字
 > 
-> ![LawsonShot20240724PMAjyMW8Xa@2x](https://oss.images.shujudaka.com/uPic/LawsonShot20240724PMAjyMW8Xa@2x.png)
+> ![LawsonShot20240724PMAjyMW8Xa@2x](https://upiclw.oss-cn-beijing.aliyuncs.com/uPic/LawsonShot20240724PMAjyMW8Xa@2x.png)
 
 
 ### 测试环境是否激活成功
@@ -78,7 +78,7 @@ pip install requests
 
 2. 第二来到下面这个页面创建你的key,打开[网址](https://platform.openai.com/api-keys)
 
-3. ![LawsonShot20240724PMAjyMW8Xa@2x](https://oss.images.shujudaka.com/uPic/LawsonShot20240724PMAjyMW8Xa@2x.png)
+3. ![LawsonShot20240724PMAjyMW8Xa@2x](https://upiclw.oss-cn-beijing.aliyuncs.com/uPic/LawsonShot20240724PMAjyMW8Xa@2x.png)
 4. 创建新的key，然后复制你的key，保存好，这个key是你调用ChatGPT的API的凭证
 5. 可以参考 `ChatGPT.py` 文件中的代码，将你的key填入到代码中，可以运行代码测试一下是否成功
    * 5.1 可以在命令行中 `python ChatGPT.py` 运行代码
@@ -100,21 +100,21 @@ pip install requests
 
 3. 创建应用后，获取AppID、API Key、Secret Key。
 
-![aUbEs7](https://oss.images.shujudaka.com/uPic/aUbEs7.png)
+![aUbEs7](https://upiclw.oss-cn-beijing.aliyuncs.com/uPic/aUbEs7.png)
 
-![LawsonShot20240724PMzlAJ6o7D@2x](https://oss.images.shujudaka.com/uPic/LawsonShot20240724PMzlAJ6o7D@2x.png)
+![LawsonShot20240724PMzlAJ6o7D@2x](https://upiclw.oss-cn-beijing.aliyuncs.com/uPic/LawsonShot20240724PMzlAJ6o7D@2x.png)
 
-![LawsonShot20240724PMqw5ZseYh@2x](https://oss.images.shujudaka.com/uPic/LawsonShot20240724PMqw5ZseYh@2x.png)
+![LawsonShot20240724PMqw5ZseYh@2x](https://upiclw.oss-cn-beijing.aliyuncs.com/uPic/LawsonShot20240724PMqw5ZseYh@2x.png)
 
 4. 调用API接口
 
 调用千帆提供的相关接口，如ERNIE-Bot等，详见[API列表](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Nlks5zkzu)。
 
-![LawsonShot20240724PMhE2j2M0t@2x](https://oss.images.shujudaka.com/uPic/LawsonShot20240724PMhE2j2M0t@2x.png)
+![LawsonShot20240724PMhE2j2M0t@2x](https://upiclw.oss-cn-beijing.aliyuncs.com/uPic/LawsonShot20240724PMhE2j2M0t@2x.png)
 
-![LawsonShot20240724PMejdGDezt@2x](https://oss.images.shujudaka.com/uPic/LawsonShot20240724PMejdGDezt@2x.png)
+![LawsonShot20240724PMejdGDezt@2x](https://upiclw.oss-cn-beijing.aliyuncs.com/uPic/LawsonShot20240724PMejdGDezt@2x.png)
 
-![LawsonShot20240724PMtk40Z47e@2x](https://oss.images.shujudaka.com/uPic/LawsonShot20240724PMtk40Z47e@2x.png)
+![LawsonShot20240724PMtk40Z47e@2x](https://upiclw.oss-cn-beijing.aliyuncs.com/uPic/LawsonShot20240724PMtk40Z47e@2x.png)
 
 5. 可以参考 `WenXin.py` 文件中的代码，将你的key填入到代码中，可以运行代码测试一下是否成功(我这里用的是 HTTP 请求，你也可以使用 SDK)
    * 5.1 可以在命令行中 `python WenXin.py` 运行代码
