@@ -3,7 +3,7 @@ import json
 
 config = {
     "API_KEY":"VSFjM1G0HWs0IYYsxInmg3Hi",
-    "SECRET_KEY":"6xDhPsqjFdMdvESlDSCAMHkDliAdm8AD"
+    "SECRET_KEY":"4444"
 }
 
 
