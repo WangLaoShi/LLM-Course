@@ -5,7 +5,7 @@ from dashscope import Application
 def call_agent_app():
     response = Application.call(app_id='8ffce74e085646e5834878e722c1a571',
                                 prompt='如何做炒西红柿鸡蛋？',
-                                api_key='sk-2b5745e051d343f3a7827373900625e4',
+                                api_key='sk-444',
 
                                 )
 
