@@ -2,7 +2,7 @@
 import os
 from openai import OpenAI
 config = {
-    "OPENAI_API_KEY": "sk-proj-t9k983js8KN4taOjtEP9T3BlbkFJcwtKZQh94PIpjFw9AEk"
+    "OPENAI_API_KEY": "sk-proj-4444"
 }
 client = OpenAI(
     # This is the default and can be omitted
